@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Screen Share from User</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="screenshareAgent.js"></script>
+  <script src="adapter.js"></script>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="camerabox">
+      <video id="received_video" autoplay style="width: 500px; height: 500px;"></video>
+
+      <button id="hangup-button" onclick="hangUpCall();" role="button" disabled>
+        Hang Up
+      </button>
+    </div>
+    <div class="empty-container"></div>
+  </div>
+</body>
+</html>

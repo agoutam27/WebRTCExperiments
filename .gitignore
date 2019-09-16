@@ -1,0 +1,4 @@
+chitchat/ 
+samples-server/
+**/node_modules/
+**/package-lock.json
